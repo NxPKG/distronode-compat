@@ -18,7 +18,7 @@ beautifulsoup4==4.12.2
     # via
     #   mkdocs-ansible
     #   mkdocs-htmlproofer-plugin
-black==23.9.1
+black==24.3.0
     # via distronode-compat (pyproject.toml)
 build==1.0.3
     # via pip-tools
@@ -28,7 +28,7 @@ cairocffi==1.6.1
     #   mkdocs-ansible
 cairosvg==2.7.1
     # via mkdocs-ansible
-certifi==2023.7.22
+certifi==2024.7.4
     # via
     #   mkdocs-ansible
     #   requests
@@ -54,7 +54,7 @@ colorama==0.4.6
     #   mkdocs-material
 coverage==7.3.2
     # via distronode-compat (pyproject.toml)
-cryptography==41.0.4
+cryptography==42.0.4
     # via distronode-core
 csscompressor==0.9.5
     # via
@@ -82,7 +82,7 @@ htmlmin2==0.1.13
     # via
     #   mkdocs-ansible
     #   mkdocs-minify-plugin
-idna==3.4
+idna==3.7
     # via
     #   mkdocs-ansible
     #   requests
@@ -97,7 +97,7 @@ importlib-resources==5.0.7
     # via distronode-core
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.2
+jinja2==3.1.4
     # via
     #   distronode-core
     #   mkdocs
@@ -192,11 +192,11 @@ pathspec==0.11.2
     #   black
     #   mkdocs
     #   mkdocs-ansible
-pillow==10.0.1
+pillow==10.3.0
     # via
     #   cairosvg
     #   mkdocs-ansible
-pip==23.2.1
+pip==23.3
     # via pip-tools
 pip-tools==7.3.0
     # via distronode-compat (pyproject.toml)
@@ -262,7 +262,7 @@ regex==2023.8.8
     # via
     #   mkdocs-ansible
     #   mkdocs-material
-requests==2.31.0
+requests==2.32.2
     # via
     #   mkdocs-ansible
     #   mkdocs-htmlproofer-plugin
@@ -306,7 +306,7 @@ typing-extensions==4.8.0 ; python_version < "3.10"
     #   black
     #   mkdocs-ansible
     #   mkdocstrings
-urllib3==2.0.5
+urllib3==2.2.2
     # via
     #   mkdocs-ansible
     #   requests
@@ -321,7 +321,7 @@ webencodings==0.5.1
     #   tinycss2
 wheel==0.41.2
     # via pip-tools
-zipp==3.17.0
+zipp==3.19.1
     # via
     #   importlib-metadata
     #   mkdocs-ansible
